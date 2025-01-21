@@ -36,17 +36,14 @@
 .color-facilities {
   color: rgb(5, 212, 223);
 }
-
 .color-admission {
   color: rgb(93, 88, 239);
 }
-
 .primary-spacing {
   padding: 0 140px;
 }
 
 /* Header section */
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -125,8 +122,6 @@
   }
 }
 
-
-
 /* Banner design */
 .banner {
   display: flex;
@@ -169,7 +164,6 @@ main {
 }
 .standard-title {
   color: rgb(0, 0, 0);
-  font-family: Quicksand;
   font-size: 2.875rem;
   font-weight: 700;
   text-align: center;
@@ -455,6 +449,13 @@ footer {
 
 /* Responsive part */
 @media screen and (max-width: 576px) {
+  .standard-title {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0px;
+  }
   .primary-spacing {
     padding: 0 20px;
   }
