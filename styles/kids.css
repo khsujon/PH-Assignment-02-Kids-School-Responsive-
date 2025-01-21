@@ -18,20 +18,24 @@
   border: none;
 }
 
-.color-home{
-    color: rgb(254, 163, 1);
+.color-home {
+  color: rgb(254, 163, 1);
 }
 
-.color-about{
-    color: rgb(1, 172, 253);
+.color-about {
+  color: rgb(1, 172, 253);
 }
 
-.color-facilities{
-    color: rgb(5, 212, 223);
+.color-facilities {
+  color: rgb(5, 212, 223);
 }
 
-.color-admission{
-    color: rgb(93, 88, 239);
+.color-admission {
+  color: rgb(93, 88, 239);
+}
+
+.primary-spacing {
+  padding: 0 140px;
 }
 
 /* Header section */
@@ -40,7 +44,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 120px;
 }
 .logo {
   display: flex;
@@ -67,4 +70,85 @@
 }
 .nav-menu li {
   list-style: none;
+}
+
+.ham-icon {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+
+.nav-hr {
+  border: 0.5px solid rgb(254, 163, 1);
+  width: 100%;
+  display: none;
+  margin: 10px 0;
+}
+
+/* Banner design */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 20px 0 0 0;
+}
+
+.banner-desc {
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 24px 0px;
+}
+
+.banner-btn{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    border: none;
+
+}
+
+.banner-image{
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive part */
+@media screen and (max-width: 576px) {
+  .primary-spacing {
+    padding: 0 20px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+  .nav-title {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+  .button-primary {
+    display: none;
+  }
+  .nav-hr {
+    display: block;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
