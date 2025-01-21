@@ -382,6 +382,31 @@ footer {
   margin: 0;
 }
 
+.about-school h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+.about-school ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-school li {
+  list-style: none;
+}
+
+.about-school li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: left;
+}
+
 /* Responsive part */
 @media screen and (max-width: 576px) {
   .primary-spacing {
