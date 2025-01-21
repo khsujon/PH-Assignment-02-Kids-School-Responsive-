@@ -347,9 +347,10 @@ main {
 /* Footer Design */
 footer {
   background: rgb(1, 172, 253);
-  padding: 123px 228px 174px 140px;
+  padding: 123px 150px 174px 140px;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .kid-education {
@@ -405,6 +406,16 @@ footer {
   font-size: 1.25rem;
   font-weight: 500;
   text-align: left;
+}
+.keep-in-touch h4{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+.social-media{
+  display: flex;
+  gap: 20px;
 }
 
 /* Responsive part */
@@ -480,5 +491,11 @@ footer {
   }
   .story-right-image-container {
     gap: 10px;
+  }
+
+  footer{
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 20px;
   }
 }
